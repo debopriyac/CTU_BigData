@@ -1,0 +1,27 @@
+---
+output: word_document
+---
+
+# Rmarkdown First Document
+## FirstDocument
+
+##question1
+
+```{r}
+
+setwd("C:/Debopriya/College/Big_Data/Data_R/Big_Data")
+mydata<-read.csv("Ozone_data.csv")
+```
+##question2
+
+```{r}
+
+summary(lm(Ozone ~ Temp+Month, data = mydata))
+
+```
+
+##Ozone is Directly proportional to Temp
+##Ozone is Indirectly proportional to Wind
+##Wind impacts more than Temp question3
+
+
