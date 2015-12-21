@@ -1,5 +1,5 @@
 ## Load a file
-mydata<-read.csv("hw1_data.csv")
+mydata<-read.csv("Ozone_data.csv")
 
 ##what are the column names of the dataset?
 names(mydata)

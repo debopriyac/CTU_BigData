@@ -16,7 +16,7 @@ mydata<-read.csv("Ozone_data.csv")
 
 ```{r}
 
-summary(lm(Ozone ~ Temp+Month, data = mydata))
+summary(lm(Ozone ~ Temp+Wind, data = mydata))
 
 ```
 
